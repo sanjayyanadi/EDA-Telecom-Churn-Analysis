@@ -1,80 +1,52 @@
 # EDA-TELECOM-CHURN-ANALYSIS
 Explore and analyze the data to discover key factors responsible for customer churn from The Orange Telecom’s churn data
 
-This Project deals with The Orange Telecom’s churn dataset of Multinational Telecommunications Corporation formerly France telecom S.A., This dataset has customer activity data(features), Churn (cancellation of subscription) is a one of the biggest Problem in the telecom industry, and as customers are churning out to its competitors. We need to analyze the dataset and find cause /reasons and insights/solutions and stop customers from churning out to other telecom companies. this will help companies from big loss/bankruptcy
+EDA-TELECOM-CHURN-ANALYSIS
 
-Analyze data with respect to:
-Basic information
-Plans
-Customer call activities
-Customer service center
+Explore and analyse the data to discover key factors responsible for customer churn from Orange Telecom’s churn data.
 
-Basic information of dataset:
-We have four categorical data and sixteen numerical data.
-We have 3333 data with respect to rows, and we have 20 data with respect to columns
-There is no null/empty data in dataset,In case if we have the null/empty data we try fill or delete data with respect to rows and column
+This project deals with Orange Telecom’s churn dataset of Multinational Telecommunications Corporation, formerly France Telecom S.A.. This dataset has customer activity data(features). Churn (cancellation of subscription) is one of the biggest problems in the telecom industry, as customers are churning out to its competitors. We need to analyse the dataset and find causes, reasons, and insights, solutions, and stop customers from churning out to other telecom companies. This will help companies avoid big losses or bankruptcy.
 
+Data analysis: Fundamental Information Plans Customer service activities are carried out in a customer service center.
 
+Basic information about the dataset: There are four categorical data points and sixteen numerical data points. We have 3333 data with respect to rows, and we have 20 data with respect to columns There is no null or empty data in the dataset. If there is null or empty data, we try to fill or delete data with respect to rows and columns.
 
-TELECOM DISTRICT DISTRIBUTION OF STATE:
-Most telecom distribution done in MV, MN, NY, and MA district of state
+The majority of telecom distribution occurs in the state districts of MV, MN, NY, and MA.
 
-TELECOM STATE CODE SISTRIBUTION WITH RESPERCT TO CHURN: 
-The majority telecom is being served in area code of 415, churn data is equal distributed with respect to the users
-We don’t see any variations in area code with respect to churn distribution
+The majority of telecom services are served by area code 415, and churn data is evenly distributed among users; we see no variations in churn distribution based on area code.
 
-TELECOM CHURN DISTRIBUTION:
-The data of churn represents that 14.5% are cancelled there subscriptions almost 483 accounts cancelled their subscription and this may Affects the company and this may lead to huge loss or bankruptcy
+The data on churn represents that 14.5% of subscriptions are cancelled. Almost 483 accounts cancelled their subscriptions. This may affect the company. This may lead to a huge loss or bankruptcy.
 
-CHURN DISTRIBUTION WITH RESPECT TO STATE(DISTRICTS):
-The distribution telecom of districts with respect to churn, we can observe that some districts have 25-40% churn rate such as (TX, NJ, MD, CA) this may change in future.
+The distribution of churn by state (DISTRICTS): The distribution of telecom districts with respect to churn. We can observe that some districts have a 25–40% churn rate, such as (TX, NJ, MD, CA). This may change in the future.
 
-
-DISTRIBUTION OF INTERNATIONAL PLAN AND VOICE MAIL PLAN  WITH RESPECT TO CHURN RATE:
-International plan as 323 users in that 137 people churned out (cancelled subscription)
-Voice mail plan as 922 users in that 80 people churned out (cancelled subscription)
-From both the data we can conclude that international plan has high churn rate and lags somewhere between plan price or service.
-
+We can conclude from both data that international plans have a high churn rate and a lag somewhere between plan price and service.
 
 ANALYSIS WITH RESPECT TO CALL DATA:
 
+Total calls have a higher churn rate of 18%, while international calls have a 14% churn rate.
 
-CHURN DISTRIBUTIONS OF INTERNATIONAL AND TOTAL MINUTES WITH RESPECT TO NO PLANS
-The churn rate is higher in total calls which is 18% whereas international as 14% churn rate 
+CHURN DISTRIBUTIONS OF INTERNATIONAL AND TOTAL MINUTES WITH RESPECT TO PLANS The churn rate is higher in international calls, which is 93%, whereas total voice calls have a 5% churn rate.
 
-CHURN DISTRIBUTIONS OF INTERNATIONAL AND TOTAL MINUTES WITH RESPECT TO PLANS
-The churn rate is higher in international calls which is 93% whereas total voice calls as 5% churn rate 
+VISUALIZATION WITH RESPECT TO CALL DATA (DAY, EVEN, NIGHT, AND INTERNATIONAL DATA): All the data has a similar distribution and we cannot see any variation except changes in charges of day time by which minutes are also decreasing.
 
-VISUALIZATION WITH RESPECT TO CALL DATA (DAY, EVE, NIGHT AND INTERNATIONAL DATA):
-All the data has similar distribution and we cannot see any variation except changes in charges of day time by which minutes are also decreasing
+Calls to customer service
 
+Most customer service calls are 1. Customer service calls with respect to Churn:
 
-CUSTOMER SERVICE CALLS:
+Customers with four or more customer service calls have a high churn rate.
 
-Most number of customer service calls are 1
-CUSTOMER SERVICE CALLS WITH RESPECT TO CHURN:
+The heat map in relation to the telecom dataset
 
-Customer with 4 and above customer service calls have high churn rate
-
-
-
-HEAT MAP WITH RESPECT TO TELECOM DATASET:
-
-From Heatmap, we can see that linear dependency between minutes and charge with respect to day, evening, international, and night.
-
+From the heatmap, we can see that there is a linear dependency between minutes and charge with respect to day, evening, international, and night.
 
 CONCLUSIONS:
 
-From all analysing the dataset I conclude that:
+Based on my analysis of the dataset, I conclude:
 
-international plan has high churn rate, on both based on plans and no plans
-Plans and price should be revised based on customer purpose
+International plans have a high churn rate, both based on plans and no plans. Plans and prices should be revised based on the needs of the customer.
 
-High churn rate on normal calls, I think this may be because of high charges for day users
-Plans for day, eve, night should be converted into one and make better plan for all users for both plan and non-plan
+normal churn rate on normal calls. I think this may be because of the high charges for day users Plans for the day, evening, and night should be combined to create a better plan for all users, both planned and unplanned.
 
-Customer with 4 and above customer service calls have high churn rate.
-Proper team with support for customer service calls, repetitive validations of call on service, 
-Set surveys and Feedback from customers for service
+Customers with four or more customer service calls have a high churn rate. proper team with support for customer service calls, repetitive validations of calls on service, Set up surveys and feedback from customers for service
 
 
