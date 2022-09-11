@@ -12,34 +12,25 @@ Customer service center
 TELECOM DISTRICT DISTRIBUTION OF STATE:
 Most telecom distribution done in MV, MN, NY, and MA district of state
 
-TELECOM DISTRICT DISTRIBUTION OF STATE:
-
-Most telecom distribution done in MV, MN, NY, and MA district of state
-TELECOM CHURN DISTRIBUTION: 
-
-From the graph we can observe that majority telecom is being served in area code of 415
-
-
-From this graph we can see that churn data is equal distributed with respect to the users
+TELECOM STATE CODE SISTRIBUTION WITH RESPERCT TO CHURN: 
+The majority telecom is being served in area code of 415, churn data is equal distributed with respect to the users
 We don’t see any variations in area code with respect to churn distribution
+
 TELECOM CHURN DISTRIBUTION:
-
-The graph represents that 14.5% are cancelled there subscriptions almost 483 accounts cancelled their subscription and this may Affects the company and this may lead to huge loss or bankruptcy
-
-
+The data of churn represents that 14.5% are cancelled there subscriptions almost 483 accounts cancelled their subscription and this may Affects the company and this may lead to huge loss or bankruptcy
 
 CHURN DISTRIBUTION WITH RESPECT TO STATE(DISTRICTS):
 The distribution telecom of districts with respect to churn, we can observe that some districts have 25-40% churn rate such as (TX, NJ, MD, CA) this may change in future.
 
 
 DISTRIBUTION OF INTERNATIONAL PLAN AND VOICE MAIL PLAN  WITH RESPECT TO CHURN RATE:
-
 International plan as 323 users in that 137 people churned out (cancelled subscription)
 Voice mail plan as 922 users in that 80 people churned out (cancelled subscription)
 From both the data we can conclude that international plan has high churn rate and lags somewhere between plan price or service.
 
 
 ANALYSIS WITH RESPECT TO CALL DATA:
+
 
 CHURN DISTRIBUTIONS OF INTERNATIONAL AND TOTAL MINUTES WITH RESPECT TO NO PLANS
 The churn rate is higher in total calls which is 18% whereas international as 14% churn rate 
@@ -62,11 +53,7 @@ Customer with 4 and above customer service calls have high churn rate
 
 HEAT MAP WITH RESPECT TO TELECOM DATASET:
 
-
-From above the graph, we can see that linear dependency between minutes and charge with respect to day, evening, international, and night.
-
-
-
+From Heatmap, we can see that linear dependency between minutes and charge with respect to day, evening, international, and night.
 
 
 CONCLUSIONS:
